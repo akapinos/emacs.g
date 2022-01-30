@@ -63,3 +63,6 @@
    ("C-h F"   . #'helpful-function)
    ("C-h C"   . #'helpful-command)
    ("C-c C-d" . #'helpful-at-point)))
+
+(use-package which-key
+  :config (which-key-mode))
