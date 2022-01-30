@@ -46,6 +46,9 @@
 	no-byte-compile = lisp/magit-libgit.el
 	recursive-byte-compile = true
 	info-path = Documentation
+[submodule "minions"]
+	path = lib/minions
+	url = git@github.com:tarsius/minions.git
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
