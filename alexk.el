@@ -45,3 +45,6 @@
 
 (use-package solarized-theme
   :init (load-theme 'solarized-light t))
+
+(use-package keychain-environment
+  :init (keychain-refresh-environment))

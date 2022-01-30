@@ -31,6 +31,9 @@
 [submodule "hl-todo"]
 	path = lib/hl-todo
 	url = git@github.com:tarsius/hl-todo.git
+[submodule "keychain-environment"]
+	path = lib/keychain-environment
+	url = git@github.com:tarsius/keychain-environment.git
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
