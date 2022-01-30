@@ -42,3 +42,6 @@
    ("C-c n" . hl-todo-next)
    ("C-c o" . hl-todo-occur)
    ("C-c i" . hl-todo-insert)))
+
+(use-package solarized-theme
+  :init (load-theme 'solarized-light t))
