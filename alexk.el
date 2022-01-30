@@ -69,3 +69,6 @@
 
 (use-package minions
   :config (minions-mode))
+
+(use-package init-javascript
+  :load-path "init.d/")

@@ -37,6 +37,12 @@
 [submodule "hl-todo"]
 	path = lib/hl-todo
 	url = git@github.com:tarsius/hl-todo.git
+[submodule "js-comint"]
+	path = lib/js-comint
+	url = git@github.com:redguardtoo/js-comint.git
+[submodule "js2-mode"]
+	path = lib/js2-mode
+	url = git@github.com:mooz/js2-mode.git
 [submodule "keychain-environment"]
 	path = lib/keychain-environment
 	url = git@github.com:tarsius/keychain-environment.git
@@ -55,6 +61,12 @@
 [submodule "reverse-im"]
 	path = lib/reverse-im
 	url = git@github.com:a13/reverse-im.el.git
+[submodule "simple-httpd"]
+	path = lib/simple-httpd
+	url = git@github.com:skeeto/emacs-web-server.git
+[submodule "skewer-mode"]
+	path = lib/skewer-mode
+	url = git@github.com:skeeto/skewer-mode.git
 [submodule "solarized-theme"]
 	path = lib/solarized-theme
 	url = git@github.com:bbatsov/solarized-emacs.git
