@@ -61,6 +61,9 @@
 [submodule "reverse-im"]
 	path = lib/reverse-im
 	url = git@github.com:a13/reverse-im.el.git
+[submodule "s"]
+	path = lib/s
+	url = git@github.com:magnars/s.el.git
 [submodule "simple-httpd"]
 	path = lib/simple-httpd
 	url = git@github.com:skeeto/emacs-web-server.git

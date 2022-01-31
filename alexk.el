@@ -49,7 +49,7 @@
 (use-package keychain-environment
   :init (keychain-refresh-environment))
 
-(use-package reverse-igm
+(use-package reverse-im
   :custom
   (reverse-im-input-methods '("russian-computer" "belarusian"))
   :config
