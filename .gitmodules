@@ -25,18 +25,30 @@
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
 	no-byte-compile = emacsql-pg.el
+[submodule "emmet-mode"]
+	path = lib/emmet-mode
+	url = git@github.com:smihica/emmet-mode.git
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+[submodule "f"]
+	path = lib/f
+	url = git@github.com:rejeep/f.el.git
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+[submodule "glsl-mode"]
+	path = lib/glsl-mode
+	url = git@github.com:jimhourihan/glsl-mode.git
 [submodule "helpful"]
 	path = lib/helpful
 	url = git@github.com:Wilfred/helpful.git
 [submodule "hl-todo"]
 	path = lib/hl-todo
 	url = git@github.com:tarsius/hl-todo.git
+[submodule "jest"]
+	path = lib/jest
+	url = git@github.com:Emiller88/emacs-jest.git
 [submodule "js-comint"]
 	path = lib/js-comint
 	url = git@github.com:redguardtoo/js-comint.git
@@ -52,12 +64,21 @@
 	no-byte-compile = lisp/magit-libgit.el
 	recursive-byte-compile = true
 	info-path = Documentation
+[submodule "magit-popup"]
+	path = lib/magit-popup
+	url = git@github.com:magit/magit-popup.git
 [submodule "minions"]
 	path = lib/minions
 	url = git@github.com:tarsius/minions.git
+[submodule "npm"]
+	path = lib/npm
+	url = git@github.com:shaneikennedy/npm.el.git
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+[submodule "projectile"]
+	path = lib/projectile
+	url = git@github.com:bbatsov/projectile.git
 [submodule "reverse-im"]
 	path = lib/reverse-im
 	url = git@github.com:a13/reverse-im.el.git

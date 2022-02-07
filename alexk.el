@@ -72,3 +72,7 @@
 
 (use-package init-javascript
   :load-path "init.d/")
+
+;; Backup
+(setq backup-directory-alist `(("." . "~/.emacs-saves"))
+      backup-by-copying t)

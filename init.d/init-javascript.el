@@ -23,4 +23,8 @@
   (add-hook 'css-mode-hook 'skewer-css-mode)
   (add-hook 'html-mode-hook 'skewer-html-mode))
 
+(use-package jest)
+
+(use-package npm)
+
 (provide 'init-javascript)
