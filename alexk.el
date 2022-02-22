@@ -76,3 +76,10 @@
 ;; Backup
 (setq backup-directory-alist `(("." . "~/.emacs-saves"))
       backup-by-copying t)
+
+(use-package elcord
+  :custom
+  ((elcord-display-buffer-details nil)
+   (elcord-display-elapsed))
+  :config
+  (elcord-mode))
