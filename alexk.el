@@ -83,3 +83,10 @@
    (elcord-display-elapsed))
   :config
   (elcord-mode))
+
+(use-package livedown
+  :custom
+ (livedown-autostart nil)
+ (livedown-open t)
+ (livedown-port 1337)
+ (livedown-browser nil))

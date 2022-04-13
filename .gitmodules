@@ -61,6 +61,9 @@
 [submodule "keychain-environment"]
 	path = lib/keychain-environment
 	url = git@github.com:tarsius/keychain-environment.git
+[submodule "livedown"]
+	path = lib/livedown
+	url = git@github.com:shime/emacs-livedown.git
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
@@ -76,6 +79,9 @@
 [submodule "npm"]
 	path = lib/npm
 	url = git@github.com:shaneikennedy/npm.el.git
+[submodule "ox-bsu-lab-report"]
+	path = lib/ox-bsu-lab-report
+	url = git@github.com:akapinos/ox-bsu
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
